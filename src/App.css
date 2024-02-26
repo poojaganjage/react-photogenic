@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/** Header Styles **/
+#header {
+    position: relative;
+}
+
+.main-header {
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    z-index: 1;
+}
+
+.logo img {
+    padding: 29px;
+}
+
+.main-navigation {
+    width: 50%;
+}
+
+ul.navigation-bar {
+    display: inline-flex;
+    float: right;
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.navigation-bar li {
+    padding: 20px;
+    font-weight: 600;
+    z-index: 1;
+    color: #ffffff;
+}
+
+/** Banner Styles **/
+#banner {
+    /* position: relative;
+    top: 0px; */
+    margin-bottom: 50px;
+}
+
+.home-bg {
+    width: 100%;
+    min-height: 430px;
+    max-height: 105vh;
+}
+
+.banner-text {
+    position: relative;
+    bottom: 400px;
+}
+
+.banner-title {
+    font-family: Gotham-Narrow-Light;
+    background-color: rgba(255, 255, 255, 0.29);
+    max-width: 163px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+.banner-heading {
+    font-size: 70px;
+    font-family: Larsseit-Bold;
+    text-transform: uppercase;
+    max-width: 601px;
+    text-align: center;
+    margin: 10px auto;
+    color: rgb(255, 255, 255);
+}
+
+.banner-description {
+    font-family: Gotham-Narrow-Book;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 10px auto;
+}
+
+/** Footer Styles **/
+#footer {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 0px;
+    background-color: #f7f7f7; 
+}
+
+.copyright {
+    padding-top: 30px;
+}
+
+.copyright p {
+   text-align: center;
+   padding: 5px;
+   font-weight: 600;
+}
